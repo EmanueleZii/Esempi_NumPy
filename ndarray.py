@@ -5,7 +5,6 @@ arr = np.array([1, 2, 3, 4, 5])
 # Creazione di un array bidimensionale
 arr2d = np.array([[1, 2, 3], [4, 5, 6]])
 
-
 # Creazione di un array
 arr = np.array([1, 2, 3, 4, 5])
 
@@ -18,3 +17,5 @@ print("Somma degli elementi:", arr.sum()) # Output: 15
 print("Media degli elementi:", arr.mean()) # Output: 3.0
 print("Valore massimo:", arr.max()) # Output: 5
 print("Indice del valore massimo:", arr.argmax(), arr.argmax()) # Output: 4
+print("Valore minimo:", arr.min()) # Output: 1
+print("Indice del valore minimo:", arr.argmin(), arr.argmin()) # Output: 0
