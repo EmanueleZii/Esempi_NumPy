@@ -15,7 +15,6 @@ print(arr[1:8:2])
 print(arr[::3])
 # Output: [0 3 6]
 
-
 #use negative indices
 print(arr[-5:])
 # Output: [5 6 7 8 9]
